@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar img{
+    width: 64px;
+    height: 48px;
+    margin-left: 10px;
+}
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 3px;
+    border-bottom: 5px solid orange;
+}
+#navbar ul{
+    display: flex;
+    margin-right: 2%;
+    list-style: none;
+}
+#navbar ul li{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0.5rem;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+}
+#container{
+    margin:0 auto;
+    max-width: 1280px;
+    min-height: 558px;
+    background-image: url(/assets/img/fundo.jpg.png);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#content{
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+#tabela-horarios{
+    margin: 5rem;
+}
+#subtitulo{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: orange;
+    color: #fff;
+}
+
+footer {
+    background-color: orange;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-info p {
+    margin: 0;
+    font-size: 14px;
+}
+.footer-social img{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.footer-social a:hover {
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*form login*/
+#corpo{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+.login-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    min-width: 20%;
+    max-width: 30%;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 153, 0, 0.89);
+}
+
+#login-message{
+    color: red;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+/*lista de alunos*/
+#tituloLista{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+/*formulário add aluno*/
+#tituloFormulario{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+input[type="date"],
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#button-voltar{
+    margin-left: 5rem;
+    margin-top: 2rem;
+    padding:8px;
+    font-size: 12px;
+}
+#button-voltar a{
+    color: #fff;
+}
