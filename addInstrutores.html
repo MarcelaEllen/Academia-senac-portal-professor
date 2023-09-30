@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de profesores da academia senac</title>
+    <link rel="stylesheet" href="/assets/style.css">
+   
+</head>
+<body>
+
+    <header>
+        <nav id="navbar">
+            <img src="/assets/img/logo.png">
+            <ul>
+                <li><a href="/index.html">Login</a></li>
+                <li><a href="/listaAlunos.php">Alunos</a></li>
+                <li><a href="/menu.html">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 id="title-instrutores">Instrutores</h1>
+
+    
+    <form id="produto-form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+        <label for="cpf">CPF:</label>
+        <input type="number" id="cpf" step="0.01" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <button type="button" onclick="adicionarInstrutor()">Adicionar</button>
+    </form>
+
+  
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do instrutor</th>
+                <th>CPF</th>
+                <th>Email</th>
+                <th>Opções</th>
+            </tr>
+        </thead>
+        <tbody id="lista-instrutores">
+            <!-- add aqui js -->
+        </tbody>
+    </table>
+
+    <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="/assets/img/logo.png" alt="Logo da Academia">
+                </div>
+                <div class="footer-info">
+                    <p>Academia SENAC</p>
+                    <p>Endereço: Rua da Academia, 123</p>
+                    <p>Telefone: (11) 555-5555</p>
+                    <p>Email: info@academiaSENAC.com</p>
+                </div>
+                <div class="footer-social">
+                    <img src="/assets/img/facebook.png">
+                    <img src="/assets/img/instagram.png">
+                    <img src="/assets/img/twitter.png">
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Academia Senac. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    <script src="/js/instrutores.js"></script>
+</body>
+</html>
