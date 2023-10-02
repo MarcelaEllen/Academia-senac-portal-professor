@@ -11,3 +11,11 @@ Sistema deverá oferecer um menu para permitir inserção, consulta, alteração
 - Uso de persistência em SGBD
 - Login (sistema deve pedir o nome do usuário senha, e só depois da entrada de um login válido ele poderá ter acesso ao menu).
 
+#Equipe:
+Fernanda de Melo
+Guilherme Lucena
+Kelveny Malafaia
+Iuri Colaço
+Marcela Ellen
+
+
